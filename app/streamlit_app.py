@@ -10,7 +10,7 @@ def main():
     Enter your transaction details and the model will assess whether it is likely to be fraudulent.
     """)
 
-    model_path = "C:/Users/kamil/Documents/pythonProject1/fraud_detection/models/best_random_forest.pkl"
+    model_path = "fraud_detection/models/best_random_forest.pkl"
     model = joblib.load(model_path)
 
     distance_from_home = st.number_input("distance_from_home", min_value=0.0, max_value=100000.0, value=10.0)
