@@ -37,7 +37,7 @@ def main():
             online_order
         ]])
 
-        scaler_path = "C:/Users/kamil/Documents/pythonProject1/fraud_detection/models/scaler.pkl"
+        scaler_path = "fraud_detection/models/scaler.pkl"
         scaler = joblib.load(scaler_path)
         features_scaled = scaler.transform(features)
         prob_fraud = model.predict_proba(features_scaled)[:, 1][0]
