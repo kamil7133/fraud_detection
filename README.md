@@ -108,10 +108,10 @@ This project is licensed under the MIT License.
 ## Demo
 You can test it by yourself under this link:
 
+*[HuggingFace](https://huggingface.co/spaces/kamil713/fraud_detection)*
 
 ## Screenshots
-*(Add screenshots or GIFs demonstrating the Streamlit app, EDA plots, model evaluation metrics, etc.)*
-
+![screenshot.png](png/screenshot.png)
 ---
 
 *Feel free to explore the notebooks and adjust the parameters as needed. Contributions and suggestions are welcome!*
